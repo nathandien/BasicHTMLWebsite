@@ -1,0 +1,55 @@
+/*
+*****************************
+|Assignment 1 (HTML/CSS)	|
+|Name: Nathan Dien			|
+|Student ID: 10162905		|
+|Lab: B06					|
+*****************************
+*/
+
+p {
+	font-family: Verdana;
+	font-size: 12pt;
+}
+body {
+    background-color: lightskyblue;
+}
+
+h1 {
+	font-family: Helvetica;
+    color: teal;
+	font-size: 20pt;
+}
+
+nav {
+	border: 1px dotted black;
+	color: maroon;
+}
+
+table {
+	font-family: Helvetica, Verdana;
+	font-size: 11pt;
+	border-collapse: collapse;
+}
+td, th {
+	text-align: center;
+	padding: 5px;
+}
+tr:nth-child(even) {
+	background-color: #66ccff; 
+}
+
+.button {
+  border: 1px solid #0082E5;
+  width: 6em;
+  padding: 1em;
+  margin: 5px;
+  border-radius: 10px;
+  background: #6cd5d8;
+  color: #103442;
+}
+
+.button:hover {
+  background: #a0d6d8;
+  color: black;
+}
